@@ -1,7 +1,6 @@
 "use client";
 import Link from "next/link";
 import Image from 'next/image';
-
 import {
   Bookmark,
   Check,
@@ -9,10 +8,9 @@ import {
   Flame,
   Plus,
   Star,
-} from "lucide-react";
+} from "lucide-react";git add . && git commit -m "feat: add workout detail section layout"
 
 import { toast } from "react-toastify";
-
 import { Workout } from "@/types/workout";
 import { useWorkout } from "@/context/workoutContext";
 interface WorkoutDetailProps {
@@ -37,16 +35,13 @@ export default function WorkoutDetail({
       toast.info("Workout is already in today's plan.");
       return;
     }
-
     addToPlan(workout);
   };
-
   const handleSave = () => {
     if (isSaved) {
       toast.info("Workout is already saved.");
       return;
     }
-
     saveWorkout(workout);
   };
 
