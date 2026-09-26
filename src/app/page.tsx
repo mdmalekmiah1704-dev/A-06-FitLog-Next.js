@@ -1,7 +1,6 @@
 import Hero from "@/components/hero";
-import WorkoutCard from "@/components/workoutCard";
+import WorkoutCard from "../components/workoutCard";
 import { getWorkouts } from "@/lib/api";
-
 export default async function Home() {
   const workouts = await getWorkouts();
 

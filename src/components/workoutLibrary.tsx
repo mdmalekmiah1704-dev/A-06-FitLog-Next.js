@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
-import WorkoutCard from "@/components/WorkoutCard";
+import WorkoutCard from "./workoutCard";
 import { Workout } from "@/types/workout";
 
 export default function WorkoutLibrary({
