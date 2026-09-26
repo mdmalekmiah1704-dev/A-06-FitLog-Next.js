@@ -8,7 +8,6 @@ export default function Footer() {
             alt="FitLog"
             className="h-7 w-auto"
           />
-
           <span className="font-black text-white">
             FITLOG
           </span>
