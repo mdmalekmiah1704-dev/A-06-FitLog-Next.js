@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="flex justify-center lg:justify-end items-center w-full">
           <div className="w-full max-w-sm lg:max-w-md">
             <img
-              src="/banner.png" alt="FitLog Training Hero"className="w-full h-auto object-contain"git status/>
+              src="/banner.png" alt="FitLog Training Hero"className="w-full h-auto object-contain"/>
           </div>
         </div>
       </div>

@@ -8,8 +8,7 @@ import {
   Flame,
   Plus,
   Star,
-} from "lucide-react";git add . && git commit -m "feat: add workout detail section layout"
-
+} from "lucide-react";
 import { toast } from "react-toastify";
 import { Workout } from "@/types/workout";
 import { useWorkout } from "@/context/workoutContext";
