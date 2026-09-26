@@ -10,12 +10,7 @@ export default function WorkoutCard({
   return (
     <Link href={`/workouts/${workout.id}`}>
       <article className="overflow-hidden rounded-2xl border border-white/10 bg-[#111] transition hover:-translate-y-1">
-        <img
-          src={workout.image}
-          alt={workout.name}
-          className="aspect-[2/1] w-full object-cover"
-        />
-
+        <img src={workout.image} alt={workout.name} className="aspect-[2/1] w-full object-cover" />
         <div className="p-5">
           <div className="mb-4 flex flex-wrap gap-2">
             {workout.muscleGroups.map((muscle) => (
